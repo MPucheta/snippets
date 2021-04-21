@@ -1,0 +1,80 @@
+{
+  "Create functional component": {
+    "scope": "javascript, typescript",
+    "prefix": "cfc",
+    "body": [
+      "const $1 = ($2) => {\n\treturn (\n\t$3\n\t)\n}"
+    ],
+    "description": "Create a functional component"
+  },
+  "Create function component": {
+    "scope": "javascript, typescript",
+    "prefix": "cffc",
+    "body": [
+      "function $1 ($2) {\n\treturn (\n\t\t$3\n\t)\n}"
+    ],
+    "description": "Create a function component"
+  },
+  "Import react": {
+    "scope": "javascript, typescript",
+    "prefix": "ir",
+    "body": [
+      "import React from 'react'\n"
+    ],
+    "description": "Import react"
+  },
+  "Import prop types": {
+    "scope": "javascript, typescript",
+    "prefix": "ipt",
+    "body": [
+      "import PropTypes from 'prop-types'"
+    ],
+    "description": "Import prop types"
+  },
+  "One-line lambda": {
+    "scope": "javascript, typescript",
+    "prefix": "lambda",
+    "body": [
+      "() => { $1 }"
+    ],
+    "description": "Create a one-liner lambda without parameters"
+  },
+  "One-line lambda with return": {
+    "scope": "javascript, typescript",
+    "prefix": "lambda-ret",
+    "body": [
+      "() => $1"
+    ],
+    "description": "Create a one-liner lambda without parameters and without parentheses"
+  },
+  "named-import": {
+    "scope": "javascript, typescript",
+    "prefix": "impn",
+    "body": [
+      "import { $2 } from '$1'"
+    ],
+    "description": "Named import statement"
+  },
+  "import": {
+    "scope": "javascript, typescript",
+    "prefix": "imp",
+    "body": [
+      "import $2 from '$1'"
+    ],
+    "description": "Default import statement"
+  },
+  "console log": {
+    "scope": "javascript, typescript",
+    "prefix": "clg",
+    "body": [
+      "console.log($1)"
+    ]
+  },
+  "create react component template": {
+    "scope": "javascript, typescript",
+    "prefix": "crct",
+    "body": [
+      "import React from 'react'\n\nfunction $1 ($2) {\n\treturn (\n\t\t$3\n\t)\n}\n\nexport default $1\n"
+    ]
+  }
+}

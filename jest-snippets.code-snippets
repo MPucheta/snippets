@@ -1,0 +1,65 @@
+{
+  "Add a describe block for jest": {
+    "scope": "javascript, typescript",
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+        "\t$2",
+      "})"
+    ],
+    "description": "Add a describe block for jest."
+  },
+
+  "Add a test block for jest": {
+    "scope": "javascript, typescript",
+    "prefix": "test",
+    "body": [
+      "test('$1', () => {",
+        "\t$2",
+      "})"
+    ],
+    "description": "Add a test block for jest."
+  },
+
+  "Add a aliased test block for jest": {
+    "scope": "javascript, typescript",
+    "prefix": "it",
+    "body": [
+      "it('$1', () => {",
+        "\t$2",
+      "})"
+    ],
+    "description": "Add a aliased test block for jest."
+  },
+
+  "Add a beforeEach block for jest": {
+    "scope": "javascript, typescript",
+    "prefix": "beforeEach",
+    "body": [
+      "beforeEach(() => {",
+        "\t$1",
+      "})"
+    ],
+    "description": "Add a beforeEach block for jest."
+  },
+
+  "Add a beforeAll block for jest": {
+    "scope": "javascript, typescript",
+    "prefix": "beforeAll",
+    "body": [
+      "beforeAll(() => {",
+        "\t$1",
+      "})"
+    ],
+    "description": "Add a beforeAll block for jest."
+  },
+
+  "Write property with Symbol value": {
+    "scope": "javascript, typescript",
+    "prefix": "symprop",
+    "body": [
+      "$1: Symbol('$1')$2"
+    ],
+    "description": "A property with the same name as Symbol value, useful for tests"
+  }
+}

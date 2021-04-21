@@ -1,0 +1,23 @@
+{
+  "Create react native component template": {
+    "scope": "javascript, typescript",
+    "prefix": "crnct",
+    "body": [
+      "import React from 'react'\n import { View } from 'react-native'\n\nfunction $1 ($2) {\n\treturn (\n\t\t$3\n\t)\n}\n\nexport default $1\n"
+    ]
+  },
+  "Create react native component template as lambda": {
+    "scope": "javascript, typescript",
+    "prefix": "crnct-lambda",
+    "body": [
+      "import React from 'react'\n import { View } from 'react-native'\n\nexport const $1 = ($2) => {\n\treturn (\n\t\t$3\n\t)\n}\n"
+    ]
+  },
+  "Create react native named styles": {
+    "scope": "javascript, typescript",
+    "prefix": "crnns",
+    "body": [
+      "import { StyleSheet } from 'react-native'\n\nexport const styles = StyleSheet.create({\n\t$1\n})\n"
+    ]
+  }
+}

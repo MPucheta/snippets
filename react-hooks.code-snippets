@@ -1,0 +1,19 @@
+{
+  "Create useEffect": {
+    "scope": "javascript, typescript",
+    "prefix": "cue",
+    "body": [
+      "useEffect(() => {\n\t$1\n}, [$2])"
+    ],
+    "description": "Create useEffect hook with empty dependencies"
+  },
+
+  "Create useState": {
+    "scope": "javascript, typescript",
+    "prefix": "cus",
+    "body": [
+      "const [$1, $2] = useState($3)"
+    ],
+    "description": "Create useState hook for [state, setState]"
+  }
+}
